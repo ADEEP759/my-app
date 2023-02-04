@@ -1,0 +1,229 @@
+#Header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(63, 134, 167, 0.923);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#Date_On_Header{
+    width: 20%;
+    text-align: start;
+    padding-top: 3px;
+    font-size: 15px;
+    margin-left: 2%;
+}
+#Tittle_on_Header{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    position: absolute;
+    top: -3px;
+    left: 40%;
+    font-size: 26px;
+    font-variant: small-caps slashed-zero;
+    
+    
+    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(139, 190, 215);
+}
+
+
+.NGLogsButton {
+    
+    padding: 3px ;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 600;
+    box-shadow: 0px 0px 14px -7px #538fa9;
+    background-image: linear-gradient(45deg, #80cad7 0%, #acafba  51%, #6da2d8  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 7px;
+    right: 2%;
+    font-size: 13px;
+    width: 80px;
+  }
+  
+  .NGLogsButton:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .NGLogsButton:active {
+    transform: scale(0.95);
+  }
+   #Form_Terminal_Page{
+    width: 40%;
+    margin-left: 3%;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    font-weight: 500;
+   }
+   .SubmitBTN_Terminal {
+    align-items: center;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 1.1;
+ 
+    min-height: 2rem;
+    padding: 5px 6px ;
+    position: relative;
+    
+   
+   
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 80px;
+  }
+  
+  
+  .SubmitBTN_Terminal:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .SubmitBTN_Terminal:hover {
+    transform: translateY(-1px);
+    color: rgb(255, 255, 255);
+    background-color: #529a58;
+  }
+  
+  .SubmitBTN_Terminal:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+
+  #Image_TerminalPage{
+    background-color: #d9e3e484;
+    width: 40%;
+    position: absolute;
+    left: 53%;
+    top: 80px;
+    height: 300px;
+    
+  }
+
+  #Table_terminalPage{
+    position: absolute;
+    top:435px;
+    left: 3%;
+    width: 70%;
+    height: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 0.5px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 0px;
+    overflow: scroll;
+    
+    
+  }
+  #Table_terminalPage::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    
+  }
+  #Table_terminalPage::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.998);        /* color of the tracking area */ 
+    border-radius: 10px;
+
+  }
+   
+  #Table_terminalPage::-webkit-scrollbar-thumb {
+    background-color: #7799a4;
+    outline: 0.3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+  }
+
+  .tableHead{
+    background-color: #417d8f9b;
+    color: #ffffff;
+    border-radius:  10em; 
+    text-align: center;
+  
+  }
+  #TableBody_TerminalPage{
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+  }
+  #AchivementsBox_terminalPage{
+    background-color: #ffffff;
+    width: 23%;
+    position: absolute;
+    top: 435px;
+    left: 74%;
+    height: 170px;
+    border: 0.5px solid rgb(228, 228, 228);
+    border-radius: 10px;
+
+   
+  }
+  #AchivementTittle{
+    height: 40px;
+    background-color: #6daf70a9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  }
+  #AchivementOK{
+    height: 30px;
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+  #AchivementNotOK{
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .form-error{
+    color: #dd221f;
+    font-size: 11px;
+    font-weight: 400;margin-bottom: 0px;
+  }
