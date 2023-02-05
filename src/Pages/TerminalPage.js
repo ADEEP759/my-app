@@ -63,7 +63,9 @@ const TerminalPage = () => {
   })
 
   const ShowImage=()=>{
-    document.getElementById("Image_TerminalPage").style.backgroundImage = "url(../../Images/OK.gif)";
+
+  
+    document.getElementById("Image_TerminalPage").style.backgroundImage = " url('/images/OKK.jpg')";
     document.getElementById("Image_TerminalPage").style.backgroundRepeat = "no-repeat";
     document.getElementById("Image_TerminalPage").style.backgroundSize = "cover";
     // elmes.style.backgroundImage="url(../../Images/OK.gif)";
@@ -126,8 +128,8 @@ const TerminalPage = () => {
            <button className="SubmitBTN_Terminal" type='submit' value="AddData" onClick={(e)=>{handleSubmit(e);ShowImage()}} >Submit</button>
           </form>
         </div>
-        <div id="Image_TerminalPage">
-          Terminal  Images
+        <div >
+         <p id="Image_TerminalPage"></p> 
          </div>
          
         <TableTerminalPage/>
