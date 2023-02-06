@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
+
 
 
 
 const TableTerminalPage = () => {
-  // const[newData,SetnewData]=useState([]);
-  // const TData=[];
   
 
-  // useEffect(() => {
-  //   SetnewData(props.Data)
-  // },[props.Data]);
+
+  // SetnewData(props.Data)
+  // TData.push(props.Data)
+
   
   // TData.push(newData);
   // const TableData=TData.concat(...newData)
-//  console.log(TableData)
+
 
   return (
 
@@ -24,74 +24,79 @@ const TableTerminalPage = () => {
       <tr className="tableHead">
         <th scope="col">Sr.No.</th>
         <th scope="col">Frame No.</th>
-        <th scope="col">Country Code</th>
+        {/* <th scope="col">Country Code</th> */}
         <th scope="col">Engine No.</th>
         <th scope="col">Remark </th>
       </tr>
     </thead>
   <tbody id='TableBody_TerminalPage'>
 
-  
-    <tr >
+
+   
+  <tr >
      <td>1</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+    
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
+ 
+   
+
+   
     <tr >
      <td>2</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+    
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>3</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+  
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>4</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+   
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>5</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+ 
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>6</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>7</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>8</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
     <tr >
      <td>9</td>
      <td>123712uygjqwgd127</td>
-     <td>+91</td>
+
      <td>MMGHJS31122387KT</td>
      <td>O</td>
     </tr>
