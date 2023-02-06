@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import "./CSS/TerminalPage.css"
 import Header from '../Components/Header';
 import TableTerminalPage from '../Components/Table_TerminalPage';
@@ -14,10 +14,12 @@ import { useNavigate } from 'react-router-dom';
     }
 
 
-
+    let terminalData = [];
+   
+  
 
 const TerminalPage = () => {
-  const [terminalData,setterminalData]=useState();
+
 // const [terminalData,setterminalData]=useState();
 const Navigate = useNavigate();
   const { values,errors,touched,handleBlur,handleChange,handleSubmit, } = useFormik({
@@ -28,13 +30,13 @@ const Navigate = useNavigate();
 
      
       Navigate("/");
-      setterminalData(values);
+      terminalData.push(values);
       setSubmitting(false);
       resetForm({values:''});
      document.getElementById("formIndex1").focus();
     }
   })
-  // console.log(terminalData)
+
   
 
   const ChangeTab=()=>{

@@ -3,10 +3,12 @@ import React from 'react';
 
 
 
-const TableTerminalPage = () => {
+const TableTerminalPage = (props) => {
   
+ let TableData=props.Data;
+//  array = [modifiedObj, ...array] 
 
-
+ console.log(TableData);
   // SetnewData(props.Data)
   // TData.push(props.Data)
 
@@ -32,19 +34,25 @@ const TableTerminalPage = () => {
   <tbody id='TableBody_TerminalPage'>
 
 
-   
-  <tr >
-     <td>1</td>
-     <td>123712uygjqwgd127</td>
+   {TableData && TableData.map((val,index) =>{
+    // for(let i=0;i>TableData.length;i++){
+    //   return 
+    // }
+   return<tr key={index} >
     
-     <td>MMGHJS31122387KT</td>
-     <td>O</td>
-    </tr>
+    <td>{index+1}</td>
+    <td>{val.Frame_No}</td>
+   
+    <td>{val.Engine_No}</td>
+    <td>{val.Remarks}</td>
+   </tr>
+})}
+  
  
    
 
    
-    <tr >
+    {/* <tr >
      <td>2</td>
      <td>123712uygjqwgd127</td>
     
@@ -99,7 +107,7 @@ const TableTerminalPage = () => {
 
      <td>MMGHJS31122387KT</td>
      <td>O</td>
-    </tr>
+    </tr> */}
 
   
 
